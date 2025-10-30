@@ -17,17 +17,9 @@ body {
   width: 748px;
   height: 748px;
   background: black;
-  gap: var(--gap);
-  border: var(--border) solid #000;
-  grid-template-columns: 320px 414px 50px;
-  grid-template-rows: 414px 155px 130px;
-  box-sizing: border-box;
+  grid-template-columns: 320px 198px 153px 50px;
+  grid-template-rows: 414px 130px 155px 20px;
   gap: 9px;
-}
-
-.cell {
-  border: var(--border) solid #000;
-  box-sizing: border-box;
 }
 
 .red {
@@ -37,31 +29,44 @@ body {
 }
 
 .white1 {
-  background: #fff;
-  grid-column: 2 / 3;
-  grid-row: 1 / 3;
+  background: rgb(240, 241, 236);
+  grid-column: 2 / 5;
+  grid-row: 1 / 2;
 }
 
 .white2 {
-  background: #fff;
+  background: rgb(240, 241, 236);
   grid-column: 1 / 2;
   grid-row: 2 / 4;
 }
 
+.white3 {
+  background: rgb(240, 241, 236);
+  grid-column: 2 / 4;
+  grid-row: 2 / 4;
+}
+
+.white4 {
+  background: rgb(240, 241, 236);
+  grid-column: 4 / 5;
+  grid-row: 3 / 5;
+}
+
 .blue {
-  background: #1565c0;
-  grid-column: 3 / 4;
+  background: blue;
+  grid-column: 4 / 5;
   grid-row: 2 / 3;
+  border-bottom: 10px solid black;
 }
 
-.yellow {
-  background: white;
+.white5 {
+  background-color: rgb(240, 241, 236);
+  grid-column: 1 / 2;
+  grid-row: 4 / 5;
+}
+
+.yelow {
+  background-color: yellow;
   grid-column: 2 / 3;
-  grid-row: 3 / 4;
-}
-
-.black {
-  background: yellow;
-  grid-column: 3 / 4;
-  grid-row: 3 / 4;
+  grid-row: 4 / 5;
 }
